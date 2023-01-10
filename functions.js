@@ -47,28 +47,28 @@ function indexOf(item, array) {
 
 }
 
-// 3 - reverse
+// // 3 - reverse
 
- reverse(names)
+//  reverse(names)
 
-function reverse(array){
-    for (let i = 0; i < names.length; i++){
-        array[i] = array[names.length - 1 - i ];
+// function reverse(array){
+//     for (let i = 0; i < names.length; i++){
+//         array[i] = array[names.length - 1 - i ];
         
-    }
-    return array
+//     }
+//     return array
     
-}
+// }
 
 
-// 4 - slice()
-let a = ["a","b", "c", "d", "e", "f"]
-let sliceOfA = slice(3 ,a)
-console.log(sliceOfA)
+// // 4 - slice()
+// let a = ["a","b", "c", "d", "e", "f"]
+// let sliceOfA = slice(3 ,a)
+// console.log(sliceOfA)
 
-function slice(start, array){
-    for (let i=0; i< names.length; i++){
-        array[i] = array[i+start];
-    }
-    return array
-}
+// function slice(start, array){
+//     for (let i=0; i< names.length; i++){
+//         array[i] = array[i+start];
+//     }
+//     return array
+// }
